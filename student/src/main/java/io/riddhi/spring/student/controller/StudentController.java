@@ -42,4 +42,5 @@ public class StudentController {
     public String deleteStudents(@PathVariable Integer rollNumber){
         return studentService.deleteStudentByRollNumber(rollNumber);
     }
+
 }
